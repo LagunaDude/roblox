@@ -1,3 +1,4 @@
+-- Made by LagunaDude#9999
 --Watermark
 local UserInputService = game:GetService("UserInputService")
 
@@ -104,9 +105,9 @@ local new = {
         AirshotFunc = true
     },
     Tracer = { 
-        TracerThickness = 3.5, -- made by Laguna
-        TracerTransparency = 1, -- made by Laguna
-        TracerColor = Color3.fromRGB(0, 0, 0) -- made by Laguna
+        TracerThickness = 3.5,
+        TracerTransparency = 1,
+        TracerColor = Color3.fromRGB(0, 0, 0)
     }
 }
 
