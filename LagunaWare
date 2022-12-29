@@ -93,22 +93,6 @@ counter = counter +  0.001
 end)
 end
 
---lock
-local new = { 
-    main = { 
-        Laguna = true,
-        Prediction = 0.13,
-        Part = "HumanoidRootPart", -- Change for different hitboxes examples: Head, UpperTorso, HumanoidRootPart, LowerTorso, RightFoot, LeftFoot, RightArm, LeftArm 
-        Key = "q",
-        Notifications = true,
-        AirshotFunc = true
-    },
-    Tracer = { 
-        TracerThickness = 3.5, -- made by Laguna
-        TracerTransparency = 1, -- made by Laguna
-        TracerColor = Color3.fromRGB(0, 0, 0) -- made by Laguna
-    }
-}
 
 
 local CurrentCamera = game:GetService "Workspace".CurrentCamera
